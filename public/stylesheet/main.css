@@ -1,0 +1,271 @@
+.col-xs-12.col-sm-6.col-md-4.col-lg-3 {
+	padding: 10px;
+}
+
+h5{
+	font-size: 18px;
+}
+.title{font-size: 14px}
+
+
+.logo {
+	margin-right: 150px;
+}
+
+.logo a{
+  font: 85px "Times New Roman";
+  font-weight: bold;
+  color: #FFF700;
+}
+
+li {
+	list-style: unset;
+	display: inline-block;
+}
+
+li a{
+  color: #000;
+  font: 34px "Calibri" bold;
+}
+
+.logo a {
+	width: 319px;
+	height: 80px;
+	font-family: "Times New Roman";
+	font-weight: bold;
+	font-size: 45px;
+	text-align: center;
+	color: #fff700;
+}
+
+.card {
+	border-radius: 30px;
+	background: #fff;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.06);
+	padding: 0 20px 20px;
+	text-align: center;
+}
+
+h5 {
+	font-family: "Segoe UI";
+	font-weight: bold;
+	font-size: 18px;
+	text-align: left;
+	color: #707070;
+	text-align: center;
+}
+
+.title {
+	font-size: 12px;
+	font-style: italic;
+	opacity: 0.7;
+	text-transform: capitalize;
+}
+
+.col-xs-6.col-sm-6.col-md-6.col-lg-6 .title {
+    font-style: unset;
+	padding: 0;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.col-xs-6.col-sm-6.col-md-6.col-lg-6 {
+	padding: 0;
+	text-align: left;
+}
+
+.img {
+	background-image: url('../images/Sharaqi.jpg');
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	background-size: cover;
+	margin: -50px auto 25px;
+	box-shadow: unset;
+}
+
+.col-xs-12.col-sm-6.col-md-4.col-lg-3 {
+	margin-top: 80px;
+}
+
+.col-xs-6.col-sm-6.col-md-6.col-lg-6 .title {
+	font-style: unset;
+	padding: 0;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 11px;
+	text-transform: lowercase;
+}
+
+.slide{display: none}
+
+.card:hover .slide {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: #ffffffeb;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	border-radius: 30px;
+	text-align: center;
+	padding: 35% 0 0 0;
+    z-index: 2;
+    cursor: pointer;
+    transition: all 3s ease-in-out
+}
+
+.card:hover .img{opacity: 0}
+span {
+	font-size: 12px;
+	margin-right: 5px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	line-height: 0;
+}
+
+.topar {
+	box-shadow: 0 0 15px #aaaaaa3d;
+
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999999999999;
+    background: #fffffff5;
+    text-align: center
+}
+
+
+.logo{margin: 0}
+
+input {
+	border: 0;
+	border-radius: 20px;
+	border: 1px solid #aaa;
+	padding: 7px 15px 7px;
+	letter-spacing: 3px;
+	text-transform: capitalize;
+	width: 65%;
+}
+
+.search {
+	position: absolute;
+	right: 38px;
+	top: 24px;
+	z-index: 999999999999999999;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 1px solid #aaa;
+	padding: 12px 16px;
+}
+
+.row{
+    margin-right: 0;
+    margin-left: 0    
+}
+
+ul{margin-bottom: 0}
+
+
+.topar .logo a{
+    color: #222;
+    
+}
+
+.search-page {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	background: #fffffffc;
+	z-index: 999999999999;
+	display: none;
+}
+
+input {
+	text-align: center;
+	border: 0;
+	margin: 22% 0;
+	width: 100%;
+	font-size: 55px;
+	text-transform: uppercase;
+	letter-spacing: 20px;
+	padding: 0 10%;
+	background: transparent;
+}
+
+.ci{display: none}
+
+.si, .ci{cursor: pointer;}
+
+.col-xs-6.col-sm-6.col-md-6.col-lg-6 .title {
+	font-size: 12px;
+}
+
+@media (min-width: 100px) and (max-width: 840px){
+	.topar .logo a {
+		color: #222;
+		font-size: 26px;
+	}
+
+	.search-page input {
+		font-size: 23px;
+		margin-top: 32%;
+		letter-spacing: 5px;
+	}
+
+	.search {
+		width: 40px;
+		height: 40px;
+		padding: 6px 0px 0px 12px;
+	}
+
+	.search > .fas, .search > .fa {
+		font-size: 14px;
+	}
+
+	.ci {
+		width: 40px;
+		height: 40px;
+		padding: 4px 0px 0px 14px;
+	}
+
+	.fas.fa-times {
+		font-size: 16px;
+	}
+
+	.name {
+		font-size: 15px;
+		margin-bottom: 4px;
+	}
+
+	.col-xs-6.col-sm-6.col-md-6.col-lg-6 .title {
+		font-style: unset;
+		padding: 0;
+		margin-top: 20px;
+		text-align: center;
+		font-size: 10px;
+		text-transform: lowercase;
+	}
+
+	.img {
+		height: 80px;
+		width: 80px;
+		margin: -40px auto 16px;
+	}
+
+	
+
+}
+
+@media(max-width: 558px){
+	.col-xs-12.col-sm-6.col-md-4.col-lg-3 {
+		padding: 0 18%;
+	}
+
+	.col-xs-12.col-sm-6.col-md-4.col-lg-3 {
+		margin-top: 70px;
+	}
+}
